@@ -1,4 +1,4 @@
-# SolutionShare.github.io
+﻿# SolutionShare.github.io
 This is the github.io repository for the organization SolutionShare
 
 SolutionShare
@@ -9,7 +9,7 @@ Team name: SolutionShare
 Team members name:
 Walid Bounouar - Student number 8917791
 Chris Blenkarn - Student number 8570003
-Maxime
+Maxime Boileau - Student number 8725793
 Abel Ammba - student number 8650391
 Alex
 
