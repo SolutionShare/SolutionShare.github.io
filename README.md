@@ -11,7 +11,7 @@ Walid Bounouar - Student number 8917791
 Chris Blenkarn - Student number 8570003
 Maxime
 Abel
-Alex
+Alex : student number 8314601
 
 Product name: SolutionShare
 
