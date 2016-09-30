@@ -9,15 +9,9 @@ Team name: SolutionShare
 Team members name:
 Walid Bounouar - Student number 8917791
 Chris Blenkarn - Student number 8570003
-<<<<<<< HEAD
-Maxime
-Abel
-Alex : student number 8314601
-=======
 Maxime Boileau - Student number 8725793
 Abel Ammba - student number 8650391
-Alex
->>>>>>> 5a97e7e4a6e55c85913f6601e66f6b36fe12d2cb
+Alex - student number 8314601
 
 Product name: SolutionShare
 
