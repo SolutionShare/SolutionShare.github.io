@@ -3,7 +3,12 @@
 <head>
     <title>What's SolutionShare?</title>
     <style>
-        div.body_walid {
+        div.navbar {
+             border:solid 5px black;
+             position: fixed;
+             width: 100%
+        }
+        div.text {
              margin-right:110px;
              margin-left:110px;
         }
@@ -11,23 +16,26 @@
              margin-right:110px;
              margin-left:110px;
         }
-        li {
+        ul.navlist {
            float: right;
         }
+        li.navlist {
+           list-style-type: none;
+           float: right;
     </style>
 </head>
 
 <body>
 
-    <div>
+    <div class="navbar">
         <a href="https://solutionshare.github.io/temporary_link_walid.html">
-            <img src="https://solutionshare.github.io/Pictures_Walid/logo_placeholder.jpg" alt="SolShare logo" style="width:100px;height=75px;position:fixed">
+            <img src="https://solutionshare.github.io/Pictures_Walid/logo_placeholder.jpg" alt="SolShare logo" style="width:100px;">
         </a>
 
-        <ul style="float:right">
-            <li><a href="https://solutionshare.github.io/temporary_link_walid.html">Features</a></li>
-            <li><a href="https://solutionshare.github.io/temporary_link_walid.html">Donate</a></li>
-            <li><a href="https://solutionshare.github.io/temporary_link_walid.html">About Us</a></li>
+        <ul class="navlist">
+            <li class="navlist"><a href="https://solutionshare.github.io/temporary_link_walid.html">Features</a></li>
+            <li class="navlist"><a href="https://solutionshare.github.io/temporary_link_walid.html">Donate</a></li>
+            <li class="navlist"><a href="https://solutionshare.github.io/temporary_link_walid.html">About Us</a></li>
         </ul>
     </div>
 
@@ -38,7 +46,7 @@
         <h2> What's SolutionShare </h2>
     </div>
 
-    <div class="body_walid">
+    <div class="text">
         <h3> Our Goal</h3>
         <p>Like our slogan infers, we offer solution made by students in hopes off helping other struggling students. Oftentimes, school textbooks offer short and 
            unhelpful answers, if they provide any. Here, at Solutionshare, we think that no one understands a student better than a fellow student, so we built a 
@@ -48,8 +56,8 @@
 
     <hr>
 
-    <div class="body_walid"> <!--pour quue l'image reste de la taille de la zone, donner des dimensions à la zone-->
-        <img src="https://solutionshare.github.io/Pictures_Walid/studying1.jpg" alt="studying 1" style="float:left;">
+    <div class="text"> <!--pour quue l'image reste de la taille de la zone, donner des dimensions à la zone-->
+        <img src="https://solutionshare.github.io/Pictures_Walid/studying1.jpg" alt="studying 1" style="width:300px;float:left;">
         <h3> How SolutionShare works</h3>
         <p>To get started, you simply need to quickly 
            <a href="https://solutionshare.github.io/temporary_link_walid.html">sign up</a>. 
@@ -63,7 +71,7 @@
 
     <hr style="clear: left;">
 
-    <div class="body_walid">
+    <div class="text">
         <h3> How we keep the site up and running</h3>
         <p>Running a big database with a social aspect isn't easy, so we need some money. Once again, you don't have to pay. Most of our revenue will come from simple adds on the
            side when you're looking for solutions. We do also accept donations, and 100% of the money given will go towards the website's infrastructure, nothing goes into our pockets.
