@@ -15,7 +15,7 @@ Alex - student number 8314601
 
 Product name: SolutionShare
 
-Description: SolutionShare is a web site that will let people post or look for the solutions to different exercices. 
+Description: SolutionShare is a web site that will let people post or look for the solutions to different exercises. 
 The goal is to help students in their homeworks when manuals do not provide good answers.
 SolutionShare est un site web qui permet aux élèves de soumettre ou de trouver les solutions pour les exercices de différents manuels.
 Le but est d'aider les élèves lorsque les manuels n'offrent pas de bons solutionnaires.
