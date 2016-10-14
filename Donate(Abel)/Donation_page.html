@@ -29,14 +29,18 @@
              margin-right:110px; 
              margin-left:110px; 
          } 
-         ul.navlist { 
-             float: right; 
+         ul.navlist {
+             display:inline-block;
+             padding-left: 50px;
+         }
+         li.navlist {
+             list-style-type: none;
+             float:right;
+             padding:5px 20px;
          } 
-         li.navlist { 
-             list-style-type: none; 
-             float: right; 
-             padding:5px; 
-         } 
+         li.navlist > a {
+             padding-right: 5px;
+         }
          div.text_whats_ss > p.whats_ss { 
              font-family: 'Rubik', sans-serif; 
              font-size: 20px; 
