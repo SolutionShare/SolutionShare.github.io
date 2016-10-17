@@ -21,7 +21,8 @@ Iconography
 Simple iconography, no 3D ou shades, keeping in the mind the overall goal of the website, which is a calm and simple feel.
 Typography
 ==========
-We will be using FIND FONT from Google Fonts.
+We will be using lobster from Google Fonts for all headings.
+Rubik for all other text.
 
 Links
 =====
