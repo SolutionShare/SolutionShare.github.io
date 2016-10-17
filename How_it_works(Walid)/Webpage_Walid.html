@@ -2,18 +2,27 @@
 <html>
 <head>
     <title>What's SolutionShare?</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <style>
-/*        div.navbar {
+        body.whats_ss {
+            margin:0px;
+            background-color: #F0F0F0;
+        }
+        div.navbar {
+           /* margin-right : 110px;*/
             background-color: #1F6691;
             position: fixed;
-            width: 99%
+            width: 100%;
+            color: white;
         }
         div.text_whats_ss {
             margin-top:25px;
             margin-bottom:25px;
             margin-right:200px;
             margin-left:200px;
+            transition-duration: 0.3s;
+            -webkit-transition-duration: 0.3s; /* for Safari */
         }
         div.text_whats_ss:hover {
             margin-top:5px;
@@ -49,7 +58,11 @@
             font-size: 50px;
         } 
         li.navlist > a {
+            text-decoration: none;
+            font-size: 30px;
             padding-right: 5px;
+            color: inherit;
+            font-family: 'Rubik', sans-serif;
         }
         div.botbar {
             background-color: #1F6691;
@@ -64,26 +77,37 @@
             float:right;
             padding:5px 20px;
         }
-*/
+        .whats_ss_button {
+            background-color: white;
+            border: 3px solid #1F6691;
+            border-radius: 10px;
+            padding: 10px 20px;
+        }  
+        .whats_ss_button:hover {
+            background-color: #1F6691;
+            color: white;
+        }
+
     </style>
 </head>
 
-<body>
+<body class="whats_ss">
 
     <div class="navbar">
         <a href="https://solutionshare.github.io/Homepage(Chris)/index.html">
-            <img src="https://solutionshare.github.io/How_it_works(Walid)/Pictures_Walid/logo_placeholder.jpg" alt="SolShare logo" style="width:100px;padding:5px;">
+            <img src="https://solutionshare.github.io/How_it_works(Walid)/Pictures_Walid/logo_placeholder.jpg" alt="SolShare logo" style="max-height:75px;padding:5px;">
         </a>
 
         <ul class="navlist">
-            <li class="navlist"><a href="https://solutionshare.github.io/temporary_link_walid.html">Get Started</a>|</li>
-            <li class="navlist"><a href="https://solutionshare.github.io/About_us(Alex)/page_alex.html">About Us</a>|</li>
-            <li class="navlist"><a href="https://solutionshare.github.io/How_it_works(Walid)/Webpage_Walid.html">How it works</a>|</li>
-            <li class="navlist"><a href="https://solutionshare.github.io/Donate(Abel)/Donation_page.html">Donate</a>|</li>
-            <li class="navlist"><a href="https://solutionshare.github.io/Features%20(Max)/Features.html">Features</a>|</li>
+            <li class="navlist"><a href="https://solutionshare.github.io/temporary_link_walid.html">Get Started |</a></li>
+            <li class="navlist"><a href="https://solutionshare.github.io/About_us(Alex)/page_alex.html">About Us |</a></li>
+            <li class="navlist"><a href="https://solutionshare.github.io/How_it_works(Walid)/Webpage_Walid.html">How it works |</a></li>
+            <li class="navlist"><a href="https://solutionshare.github.io/Donate(Abel)/Donation_page.html">Donate |</a></li>
+            <li class="navlist"><a href="https://solutionshare.github.io/Features%20(Max)/Features.html">Features |</a></li>
         </ul>
     </div>
 
+    </br>
     </br>
     </br>
 
@@ -123,8 +147,8 @@
         </p>
 
         <form>
-            <input type="button" value="Donations" onclick="window.location.href='https://solutionshare.github.io/Donate(Abel)/Donation_page.html'" />
-            <input type="button" value="Advertise" onclick="window.location.href='https://solutionshare.github.io/temporary_link_walid.html'" />
+            <input class="whats_ss_button" type="button" value="Donations" onclick="window.location.href='https://solutionshare.github.io/Donate(Abel)/Donation_page.html'" />
+            <input class="whats_ss_button" type="button" value="Advertise" onclick="window.location.href='https://solutionshare.github.io/temporary_link_walid.html'" />
         </form>
 
     </div>
