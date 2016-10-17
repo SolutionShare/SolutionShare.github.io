@@ -1,0 +1,36 @@
+Overall Look and Feel of SolutionShare
+===============================
+
+We want a calm and relax feel for the website, since stressed out student will probably come visit the site. 
+Look will be basic and simple. User friendly. Few colors. All pages will have margins
+
+Colours
+========
+For Roomie, colours expose our personality to the customers and represent that we are calm and pleasing.
+These are our color swatches:
+
+- #3674AB
+- #274E70
+- #FFE380
+- #FFD642
+- #5789B3
+- #F0F0F0 (lightgrey for all backgrounds)
+
+Iconography
+===========
+Simple iconography, no 3D ou shades, keeping in the mind the overall goal of the website, which is a calm and simple feel.
+Typography
+==========
+We will be using FIND FONT from Google Fonts.
+
+Links
+=====
+Links in the navigation bar will not be inderlined. All other links will blue (same color as navbar).  Visited links will be a darker shade of blue.
+
+Buttons
+=======
+Buttons will be white with blue rounded borders. Upon hovering, the buttons will become blue with white writing.
+
+Side notes
+=======
+When hovering on the logo, a text box appears to make it clear it's "clicable".
