@@ -135,8 +135,14 @@ h2.whats_ss {
 
 /*==============================================*/
 
-/*your parts*/
-
+/*Features page (Max)*/
+div.features{
+	display:inline-block;
+}
+img.feature{
+	height:150px;
+	width:150px;
+}
 
 
 
