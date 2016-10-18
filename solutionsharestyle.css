@@ -14,13 +14,23 @@ h2 {
     font-family: 'Lobster', cursive;
 } 
 
+a:link {
+    color: #3674AB;
+}
+
+a:visited {
+    color: #274E70;
+}
+
+
+
 /*===========================================*/
 
 /* Navigation bar */
 
 div.navbar {
     /* margin-right : 110px;*/
-    background-color: #1F6691;
+    background-color: #3674AB;
     position: fixed;
     width: 100%;
     color: white;
@@ -123,7 +133,9 @@ h2.whats_ss {
     color: white;
 }
 
+/*==============================================*/
 
+/*your parts*/
 
 
 
