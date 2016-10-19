@@ -157,13 +157,13 @@ h2.whats_ss {
 
 
 
-
+/*KEEP THIS AT THE BOTTOM OF THE FILE, WRITE ON TOP OF THIS COMMENT*/
 
 
 @media only screen and (max-width:1053px) {
 
 div.whats_ss_title {
-    padding-top: 120px;
+    padding-top: 170px;
 }
 
 }
@@ -171,7 +171,7 @@ div.whats_ss_title {
 @media only screen and (max-width:930px) {
 
 div.whats_ss_title {
-    padding-top: 140px;
+    padding-top: 240px;
 }
 
 }
@@ -179,7 +179,7 @@ div.whats_ss_title {
 @media only screen and (max-width:570px) {
 
 div.whats_ss_title {
-    padding-top: 160px;
+    padding-top: 310px;
 }
 
 }
