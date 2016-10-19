@@ -160,10 +160,12 @@ h2.whats_ss {
 
 
 
-@media (max-width:787px)
-h2 {
-    font-size: 2em;
+@media (max-width:1054px)
+
+div.whats_ss_title {
+    padding-top: 120px;
 }
+
 
 
 
