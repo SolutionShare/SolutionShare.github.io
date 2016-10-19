@@ -147,6 +147,19 @@ h2.whats_ss {
 
 /*your parts*/
 
+/* Features (Max) */
+
+div.feature {
+    display: inline-block;
+    display:inline-block;
+    padding:20px;
+}
+img.feature {
+    height:150px;
+}
+
+/*=================================================*/
+
 
 
 
