@@ -43,7 +43,7 @@ ul.navlist {
 
 li.navlist {
     list-style-type: none;
-    display: inline-block;
+    float:right;
     padding:5px 20px;
 }
 
