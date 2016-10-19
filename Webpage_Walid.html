@@ -5,12 +5,19 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="solutionsharestyle.css">
-    <link href="header.html">
+    
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+    });
+</script>
+
 </head>
 
 <body>
 
-    <div w3-include-html="navigationbar.html"></div>
+    <div id="header"></div>
 
  <!--   <div class="navbar">
         <a href="index.html">
