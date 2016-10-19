@@ -186,26 +186,26 @@ img.feature {
 /*KEEP THIS AT THE BOTTOM OF THE FILE, WRITE ON TOP OF THIS COMMENT*/
 
 
-@media only screen and (max-width:1053px) {
+@media screen and (max-width:1052px) {
 
 div.whats_ss_title {
-    padding-top: 170px;
+    padding-top: 200px;
 }
 
 }
 
-@media only screen and (max-width:930px) {
+@media screen and (max-width:930px) {
 
 div.whats_ss_title {
-    padding-top: 240px;
+    padding-top: 300px;
 }
 
 }
 
-@media only screen and (max-width:570px) {
+@media screen and (max-width:571px) {
 
 div.whats_ss_title {
-    padding-top: 310px;
+    padding-top: 400px;
 }
 
 }
