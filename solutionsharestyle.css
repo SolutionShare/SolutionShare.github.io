@@ -50,7 +50,7 @@ li.navlist {
 li.navlist > a {
     text-decoration: none;
     font-size: 30px;
-    padding-right: 5px;
+    padding-right: 5px 20px;
     color: inherit;
     font-family: 'Rubik', sans-serif;
 }
@@ -58,7 +58,7 @@ li.navlist > a {
 img.logonavbar {
     display: inline-block;
     max-height:75px;
-    padding:5px;
+    padding:5px 20px;
 }
 
 /*==============================================*/
