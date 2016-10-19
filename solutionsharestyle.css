@@ -160,13 +160,29 @@ h2.whats_ss {
 
 
 
-@media (max-width:950px)
+@media only screen and (max-width:1053px) {
 
 div.whats_ss_title {
-    padding-top: 200px;
+    padding-top: 120px;
 }
 
+}
 
+@media only screen and (max-width:930px) {
+
+div.whats_ss_title {
+    padding-top: 140px;
+}
+
+}
+
+@media only screen and (max-width:570px) {
+
+div.whats_ss_title {
+    padding-top: 160px;
+}
+
+}
 
 
 
