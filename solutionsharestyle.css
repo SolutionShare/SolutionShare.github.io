@@ -66,6 +66,15 @@ a.logonavbar {
     max-height:85px;
 }
 
+hr.navbar {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: block;
+    height: 10px;
+    background-color: #FFE380;
+    color: #FFE380;
+}
+
 /*==============================================*/
 
 /*Bottom bar*/
@@ -132,7 +141,8 @@ h2.whats_ss {
 } 
 
 .whats_ss_button {
-    background-color: white;
+    background-color: #FFE380;
+    color:#1F6691;
     border: 3px solid #1F6691;
     border-radius: 10px;
     padding: 10px 20px;
@@ -140,7 +150,8 @@ h2.whats_ss {
 
 .whats_ss_button:hover {
     background-color: #1F6691;
-    color: white;
+    color: FFE380;
+    border: 3px solid #FFE380;
 }
 
 /*==============================================*/
