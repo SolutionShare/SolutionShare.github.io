@@ -186,7 +186,7 @@ img.feature {
 /*KEEP THIS AT THE BOTTOM OF THE FILE, WRITE ON TOP OF THIS COMMENT*/
 
 
-@media screen and (max-width:1052px) {
+@media screen and (max-width:1144px) {
 
 div.whats_ss_title {
     padding-top: 200px;
@@ -194,7 +194,7 @@ div.whats_ss_title {
 
 }
 
-@media screen and (max-width:930px) {
+@media screen and (max-width:1022px) {
 
 div.whats_ss_title {
     padding-top: 300px;
@@ -202,7 +202,7 @@ div.whats_ss_title {
 
 }
 
-@media screen and (max-width:571px) {
+@media screen and (max-width:663px) {
 
 div.whats_ss_title {
     padding-top: 400px;
