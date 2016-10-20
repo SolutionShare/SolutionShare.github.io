@@ -179,6 +179,10 @@ div.about_us_title {
     text-align: center;
 }
 
+div.about_us_bios {
+    clear: top;
+}
+
 img.about_us_pics {
     float: left;
     max-height: inherit;
