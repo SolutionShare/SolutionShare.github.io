@@ -187,12 +187,18 @@ p.about_us_bios {
     display: inline-block;
 }
 
-/*div.about_us_text_container {
-    display: inline-block;
-}*/
+div.about_us_text_container {
+    float:right;
+    width: 75%;
+}
 
 div.about_us_pic_container {
     float:left;
+    width: 25%;
+}
+
+hr.about_us {
+    clear: both;
 }
 
 img.about_us_pics {
