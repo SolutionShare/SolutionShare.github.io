@@ -173,7 +173,17 @@ img.feature {
 
 /*=================================================*/
 
+/*About us (Alex and Walid)*/
 
+div.about_us_title {
+    text-align: center;
+}
+
+img.about_us_pics {
+    float: left;
+}
+
+/*===================================================*/
 
 
 
