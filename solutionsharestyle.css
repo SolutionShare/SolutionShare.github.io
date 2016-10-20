@@ -181,6 +181,7 @@ div.about_us_title {
 
 img.about_us_pics {
     float: left;
+    max-height: inherit;
 }
 
 /*===================================================*/
