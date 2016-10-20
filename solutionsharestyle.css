@@ -183,6 +183,10 @@ div.about_us_title {
     clear: top;
 }*/
 
+p.about_us_bios {
+    display: inline-block;
+}
+
 img.about_us_pics {
     display: inline-block;
     /*max-height: inherit;*/
