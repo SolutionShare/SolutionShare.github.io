@@ -50,14 +50,29 @@ li.navlist {
 li.navlist > a {
     text-decoration: none;
     font-size: 30px;
-    padding-right: 5px;
+    padding-right: 5px 20px;
     color: inherit;
     font-family: 'Rubik', sans-serif;
 }
 
 img.logonavbar {
+    display: inline-block;
     max-height:75px;
-    padding:5px;
+    padding:5px 20px;
+}
+
+a.logonavbar {
+    display: inline-block;
+    max-height:85px;
+}
+
+hr.navbar {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: block;
+    height: 10px;
+    background-color: #FFE380;
+    color: #FFE380;
 }
 
 /*==============================================*/
@@ -104,6 +119,9 @@ div.text_whats_ss:hover {
 hr.whats_ss {
     margin-right:200px;
     margin-left:200px;
+    height: 2px;
+    background-color: #FFE380;
+    border: 1px solid #FFE380; 
 }
 
 div.text_whats_ss > p.whats_ss {
@@ -111,6 +129,10 @@ div.text_whats_ss > p.whats_ss {
     font-size: 20px;
     text-align: justify;
     line-height: 200%;
+}
+
+div.whats_ss_title {
+    padding-top: 100px;
 }
 
 h3.whats_ss {
@@ -131,20 +153,25 @@ h2.whats_ss {
 .whats_ss_button:hover {
     background-color: #1F6691;
     color: white;
+    border: 3px solid #FFE380;
 }
 
 /*==============================================*/
 
-/*Features page (Max)*/
-div.feature{
-	display:inline-block;
-	padding:20px;
+/*your parts*/
+
+/* Features (Max) */
+
+div.feature {
+    display: inline-block;
+    display:inline-block;
+    padding:20px;
 }
-img.feature{
-	height:150px;
-	width:150px;
+img.feature {
+    height:150px;
 }
 
+/*=================================================*/
 
 
 
@@ -156,7 +183,36 @@ img.feature{
 
 
 
+/*KEEP THIS AT THE BOTTOM OF THE FILE, WRITE ON TOP OF THIS COMMENT*/
+/*This make the padding on top of the div with the class whats_ss bigger when th max-
+width of the page is 1150px, 1015px or 615px. We can change the class so that it does
+the same for the title of all our. This is a solution to the fact that when the navbar
+gets thicker (shrinked screen), it starts hiding the title */
 
+
+@media screen and (max-width:1150px) {
+
+div.whats_ss_title {
+    padding-top: 170px;
+}
+
+}
+
+@media screen and (max-width:1015px) {
+
+div.whats_ss_title {
+    padding-top: 240px;
+}
+
+}
+
+@media screen and (max-width:615px) {
+
+div.whats_ss_title {
+    padding-top: 310px;
+}
+
+}
 
 
 
