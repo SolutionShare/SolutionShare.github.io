@@ -208,6 +208,43 @@ img.about_us_pics {
 }
 
 /*===================================================*/
+/*Donations (Abel)*/
+
+
+h2.Donations {
+    font-size: 350%;
+}
+
+h3.Donations {
+    font-size: 150%;
+}
+ 
+
+#content-1 {
+	float:left;
+	width:220px;
+	padding:1px;
+
+
+}
+#content-2-1 {
+	float:left;
+	width:860px;
+	padding:1px;
+	background:#A9A9A9;
+
+}
+#content-2-2 {
+	float:right;
+	width:260px;
+	padding:1px;
+
+
+}
+
+
+
+/*===================================================*/
 
 
 
