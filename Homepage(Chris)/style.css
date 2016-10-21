@@ -95,24 +95,7 @@ textarea {
 h1.posttitle {
     text-align:center;
 }
-.topnav {
 
-    text-decoration: none;
-    display: inline-block;
-    padding-left:60px;
-}
-.topnav ul a li {
-    display: inline-block;
-    padding-right: 10px;
-    color: white;
-    padding-left:80px;
-    font-size:18pt;
-}
-.topnav ul a li:hover{
-    font-weight:bold;
-    padding-right: 8px;
-  padding-left: 8px;
-}
 .BotNav
   {
 
