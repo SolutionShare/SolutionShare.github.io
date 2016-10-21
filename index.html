@@ -9,21 +9,24 @@
     <link href='https://fonts.googleapis.com/css?family=Ubuntu|Alegreya' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="style.css">
     <link type="text/css" rel="stylesheet" href="morestyles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="solutionsharestyle.css">
+    
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script> 
+    $(document).ready(function(){
+      $("#header").load("https://solutionshare.github.io/header.html");
+      $("#footer").load("https://solutionshare.github.io/footer.html"); 
+    });
+</script>
+
   </head>
   <body>
     <div class="page">
-      <div class="header">
-        <a href="Homepage.html"> <img class="logoimg"src="logo_placeholder.jpg"></a>
-
-        <div class="topnav">
-          <ul>
-            <a href="#"><li>Donate</li></a>|
-            <a href="#"><li>Features</li></a>|
-            <a href="Webpage_Walid"><li>How it works</li></a>|
-            <a href="#"><li>Other link</li></a>
-          </ul>
-        </div>
-      </div>
+      
+      <div id="header"></div>
 
       <div class="content">
 
@@ -35,18 +38,9 @@
             <h2> Solutions for students made by students! </h2>
           </div>
         </div>
-        <div class="BotNav">
-          <ul id="navigation">
-            <a href="Homepage.html"> <img class="logoimg"src="logo_placeholder.jpg"></a>
-            <a href="#"><li>Features Page</li></a>|
-            <a href="#"><li>Donation</li></a>|
-            <a href="#"><li>How it works</li></a>|
-            <a href="#"><li>About us</li></a>|
-            <a href="#"><li>Get started</li></a>|
+        
+        <div id="footer"></div>
 
-
-          </ul>
-        </div>
       </div>
   </body>
 </html>

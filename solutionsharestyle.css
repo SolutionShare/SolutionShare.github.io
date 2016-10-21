@@ -75,28 +75,99 @@ hr.navbar {
     color: #FFE380;
 }
 
-/*==============================================*/
+/*=================================================*/
 
-/*Bottom bar*/
-/*Up for change*/
+/*footer*/
 
-div.botbar {
-    background-color: #1F6691;
-    width: 100%
+div.footer {
+    background-color: #3674AB;
 }
 
-ul.botbarlist {
+div.logo_footer {
+    float: left; 
+    width: 20%;
+}
+
+div.links_footer {
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+}
+
+ul.links_footer {
     display:inline-block;
-    padding-left: 50px;
+    text-align:center;
 }
 
-li.botbarlist {
+li.links_footer {
     list-style-type: none;
-    float:right;
-    padding:5px 20px;
+    display: inline-block;
+
+    padding:5px 10px;
 }
+
+li.links_footer > a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 5px;
+    color: inherit;
+    font-family: 'Rubik', sans-serif;
+}
+
+div.social_footer {
+    float: right;
+    width: 20%;
+}
+
+div.clear {
+    clear:both;
+}
+
+div.copyright_footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0px;
+    background-color: black;
+    color: white;
+}
+
+p.copyright_footer {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+img.logo_footer {
+    float: left;
+    height: 75px;
+    width: 75px;
+}
+
+img.social_footer {
+    float: right;
+    height: 75px;
+    width: 75px;
+    padding: 5px;
+}
+
+hr.footer {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    display: block;
+    height: 10px;
+    background-color: #FFE380;
+    color: #FFE380;
+}
+
 
 /*=================================================*/
+/*Homepage (Chris)*/
+
+div.mainPage {
+    padding-top: 250px;
+}
+
+/*===================================================*/
 
 /*What's SolutionShare (How it works) page(Walid)*/
 
@@ -161,9 +232,6 @@ h2.whats_ss {
 /*your parts*/
 
 /* Features (Max) */
-h2.feature{
-    margin-top:auto;
-}
 div.feature {
     display:inline-block;
     padding:20px;
