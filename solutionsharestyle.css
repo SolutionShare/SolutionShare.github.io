@@ -8,11 +8,11 @@ body {
 
 h3 {
     font-family: 'Lobster', cursive;
-} 
+}
 
 h2 {
     font-family: 'Lobster', cursive;
-} 
+}
 
 a:link {
     color: #3674AB;
@@ -94,7 +94,7 @@ div.footer {
 }
 
 div.logo_footer {
-    float: left; 
+    float: left;
     width: 20%;
 }
 
@@ -174,7 +174,6 @@ hr.footer {
 /*Homepage (Chris)*/
 
 div.mainPage {
-    padding-top: 250px;
 }
 
 /*===================================================*/
@@ -194,7 +193,7 @@ div.text_whats_ss:hover {
     margin-top:5px;
     margin-bottom:5px;
     margin-right:80px;
-    margin-left:80px;            
+    margin-left:80px;
 }
 
 hr.whats_ss {
@@ -202,7 +201,7 @@ hr.whats_ss {
     margin-left:200px;
     height: 2px;
     background-color: #FFE380;
-    border: 1px solid #FFE380; 
+    border: 1px solid #FFE380;
 }
 
 div.text_whats_ss > p.whats_ss {
@@ -214,18 +213,18 @@ div.text_whats_ss > p.whats_ss {
 
 h3.whats_ss {
     font-size: 35px;
-} 
+}
 
 h2.whats_ss {
     font-size: 50px;
-} 
+}
 
 .whats_ss_button {
     background-color: white;
     border: 3px solid #1F6691;
     border-radius: 10px;
     padding: 10px 20px;
-}  
+}
 
 .whats_ss_button:hover {
     background-color: #1F6691;
@@ -305,7 +304,7 @@ h2.Donations {
 h3.Donations {
     font-size: 150%;
 }
- 
+
 
 #content-1 {
 	float:left;
@@ -379,7 +378,3 @@ div.first_title {
 }
 
 }
-
-
-
-
