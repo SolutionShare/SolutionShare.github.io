@@ -235,17 +235,25 @@ h2.whats_ss {
 
 /*==============================================*/
 
-/*your parts*/
-
 /* Features (Max) */
+h2.feature{
+	font-size:50px;
+}
+h3.feature{
+	font-size:35px;
+}
 div.feature {
     display:inline-block;
     padding:20px;
+	height:auto;
 }
 p.feature{
+	font-family:'Rubik', sans-serif;
+	font-size:20px;
+	line-height:150%;
 	text-align:justify;
 	text-align-last:center;
-	width:400px
+	width:400px;
 }
 img.feature {
     height:150px;
