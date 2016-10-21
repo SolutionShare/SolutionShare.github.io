@@ -22,6 +22,15 @@ a:visited {
     color: #274E70;
 }
 
+div.first_title {
+    padding-top: 100px;
+    text-align: center;
+}
+
+h2.first_title {
+    text-align: center;
+}
+
 
 
 /*===========================================*/
@@ -46,6 +55,7 @@ li.navlist {
     float:right;
     padding:5px 20px;
 }
+
 
 li.navlist > a {
     text-decoration: none;
@@ -202,10 +212,6 @@ div.text_whats_ss > p.whats_ss {
     line-height: 200%;
 }
 
-div.whats_ss_title {
-    padding-top: 100px;
-}
-
 h3.whats_ss {
     font-size: 35px;
 } 
@@ -276,6 +282,14 @@ img.about_us_pics {
 }
 
 /*===================================================*/
+
+/*Temporary link (Walid)*/
+
+div.under_construction {
+    margin-right:200px;
+    margin-left:200px;
+    text-align: center;
+}
 
 
 
