@@ -91,6 +91,7 @@ div.logo_footer {
 div.links_footer {
     width: 60%;
     display: inline-block;
+    text-align: center;
 }
 
 ul.links_footer {
