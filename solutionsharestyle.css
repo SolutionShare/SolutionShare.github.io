@@ -163,7 +163,6 @@ h2.whats_ss {
 /* Features (Max) */
 
 div.feature {
-    display: inline-block;
     display:inline-block;
     padding:20px;
 }
