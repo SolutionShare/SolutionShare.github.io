@@ -345,7 +345,7 @@ gets thicker (shrinked screen), it starts hiding the title */
 
 @media screen and (max-width:1150px) {
 
-div.whats_ss_title {
+div.first_title {
     padding-top: 170px;
 }
 
@@ -353,7 +353,7 @@ div.whats_ss_title {
 
 @media screen and (max-width:1015px) {
 
-div.whats_ss_title {
+div.first_title {
     padding-top: 240px;
 }
 
@@ -361,7 +361,7 @@ div.whats_ss_title {
 
 @media screen and (max-width:615px) {
 
-div.whats_ss_title {
+div.first_title {
     padding-top: 310px;
 }
 
