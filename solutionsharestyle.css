@@ -245,7 +245,7 @@ h3.feature{
 div.feature {
     display:inline-block;
     padding:20px;
-	height:auto;
+	vertical-align:top;
 }
 p.feature{
 	font-family:'Rubik', sans-serif;
