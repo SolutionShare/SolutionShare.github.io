@@ -14,6 +14,7 @@ These are our color swatches:
 - #FFE380
 - #FFD642
 - #5789B3
+- #A9A9A9 (for the donation page)
 - #F0F0F0 (lightgrey for all backgrounds)
 
 Iconography
