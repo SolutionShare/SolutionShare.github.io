@@ -161,7 +161,15 @@ h2.whats_ss {
 /*your parts*/
 
 /* Features (Max) */
-
+h2.feature{
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
 div.feature {
     display:inline-block;
     padding:20px;
