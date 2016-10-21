@@ -242,6 +242,11 @@ div.feature {
     display:inline-block;
     padding:20px;
 }
+p.feature{
+	text-align:justify;
+	text-align-last:center;
+	width:400px
+}
 img.feature {
     height:150px;
 }
