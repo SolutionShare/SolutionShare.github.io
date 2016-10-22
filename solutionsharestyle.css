@@ -233,6 +233,13 @@ h2.whats_ss {
     border: 3px solid #FFE380;
 }
 
+img.whats_ss {
+    max-width:35%;
+    float:left;
+    padding-right:5px;
+    padding-bottom:17px;
+}
+
 /*==============================================*/
 
 /* Features (Max) */
