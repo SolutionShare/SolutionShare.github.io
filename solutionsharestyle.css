@@ -8,11 +8,11 @@ body {
 
 h3 {
     font-family: 'Lobster', cursive;
-}
+} 
 
 h2 {
     font-family: 'Lobster', cursive;
-}
+} 
 
 a:link {
     color: #3674AB;
@@ -20,15 +20,6 @@ a:link {
 
 a:visited {
     color: #274E70;
-}
-
-div.first_title {
-    padding-top: 100px;
-    text-align: center;
-}
-
-h2.first_title {
-    text-align: center;
 }
 
 
@@ -55,7 +46,6 @@ li.navlist {
     float:right;
     padding:5px 20px;
 }
-
 
 li.navlist > a {
     text-decoration: none;
@@ -85,99 +75,28 @@ hr.navbar {
     color: #FFE380;
 }
 
-/*=================================================*/
+/*==============================================*/
 
-/*footer*/
+/*Bottom bar*/
+/*Up for change*/
 
-div.footer {
-    background-color: #3674AB;
+div.botbar {
+    background-color: #1F6691;
+    width: 100%
 }
 
-div.logo_footer {
-    float: left;
-    width: 20%;
-}
-
-div.links_footer {
-    width: 60%;
-    display: inline-block;
-    text-align: center;
-}
-
-ul.links_footer {
+ul.botbarlist {
     display:inline-block;
-    text-align:center;
+    padding-left: 50px;
 }
 
-li.links_footer {
+li.botbarlist {
     list-style-type: none;
-    display: inline-block;
-
-    padding:5px 10px;
+    float:right;
+    padding:5px 20px;
 }
-
-li.links_footer > a {
-    text-decoration: none;
-    font-size: 20px;
-    padding-right: 5px;
-    color: inherit;
-    font-family: 'Rubik', sans-serif;
-}
-
-div.social_footer {
-    float: right;
-    width: 20%;
-}
-
-div.clear {
-    clear:both;
-}
-
-div.copyright_footer {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 0px;
-    background-color: black;
-    color: white;
-}
-
-p.copyright_footer {
-    padding: 0px;
-    margin-bottom: 0px;
-}
-
-img.logo_footer {
-    float: left;
-    height: 75px;
-    width: 75px;
-}
-
-img.social_footer {
-    float: right;
-    height: 75px;
-    width: 75px;
-    padding: 5px;
-}
-
-hr.footer {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    display: block;
-    height: 10px;
-    background-color: #FFE380;
-    color: #FFE380;
-}
-
 
 /*=================================================*/
-/*Homepage (Chris)*/
-
-div.mainPage {
-}
-
-
-/*===================================================*/
 
 /*What's SolutionShare (How it works) page(Walid)*/
 
@@ -194,7 +113,7 @@ div.text_whats_ss:hover {
     margin-top:5px;
     margin-bottom:5px;
     margin-right:80px;
-    margin-left:80px;
+    margin-left:80px;            
 }
 
 hr.whats_ss {
@@ -202,7 +121,7 @@ hr.whats_ss {
     margin-left:200px;
     height: 2px;
     background-color: #FFE380;
-    border: 1px solid #FFE380;
+    border: 1px solid #FFE380; 
 }
 
 div.text_whats_ss > p.whats_ss {
@@ -212,20 +131,24 @@ div.text_whats_ss > p.whats_ss {
     line-height: 200%;
 }
 
+div.whats_ss_title {
+    padding-top: 100px;
+}
+
 h3.whats_ss {
     font-size: 35px;
-}
+} 
 
 h2.whats_ss {
     font-size: 50px;
-}
+} 
 
 .whats_ss_button {
     background-color: white;
     border: 3px solid #1F6691;
     border-radius: 10px;
     padding: 10px 20px;
-}
+}  
 
 .whats_ss_button:hover {
     background-color: #1F6691;
@@ -235,25 +158,14 @@ h2.whats_ss {
 
 /*==============================================*/
 
+/*your parts*/
+
 /* Features (Max) */
-h2.feature{
-	font-size:50px;
-}
-h3.feature{
-	font-size:35px;
-}
+
 div.feature {
+    display: inline-block;
     display:inline-block;
     padding:20px;
-	vertical-align:top;
-}
-p.feature{
-	font-family:'Rubik', sans-serif;
-	font-size:20px;
-	line-height:150%;
-	text-align:justify;
-	text-align-last:center;
-	width:400px;
 }
 img.feature {
     height:150px;
@@ -273,7 +185,10 @@ div.about_us_title {
 
 p.about_us_bios {
     display: inline-block;
+    font-size : 4
+    
 }
+
 
 div.about_us_text_container {
     float:right;
@@ -295,51 +210,6 @@ img.about_us_pics {
 }
 
 /*===================================================*/
-/*Donations (Abel)*/
-
-
-h2.Donations {
-    font-size: 350%;
-}
-
-h3.Donations {
-    font-size: 150%;
-}
-
-
-#content-1 {
-	float:left;
-	width:220px;
-	padding:1px;
-
-
-}
-#content-2-1 {
-	float:left;
-	width:860px;
-	padding:1px;
-	background:#A9A9A9;
-
-}
-#content-2-2 {
-	float:right;
-	width:260px;
-	padding:1px;
-
-
-}
-
-
-
-/*===================================================*/
-
-/*Temporary link (Walid)*/
-
-div.under_construction {
-    margin-right:200px;
-    margin-left:200px;
-    text-align: center;
-}
 
 
 
@@ -350,7 +220,7 @@ div.under_construction {
 
 
 /*KEEP THIS AT THE BOTTOM OF THE FILE, WRITE ON TOP OF THIS COMMENT*/
-/*This make the padding on top of the div with the class "first_title" bigger when th max-
+/*This make the padding on top of the div with the class whats_ss bigger when th max-
 width of the page is 1150px, 1015px or 615px. We can change the class so that it does
 the same for the title of all our. This is a solution to the fact that when the navbar
 gets thicker (shrinked screen), it starts hiding the title */
@@ -358,7 +228,7 @@ gets thicker (shrinked screen), it starts hiding the title */
 
 @media screen and (max-width:1150px) {
 
-div.first_title {
+div.whats_ss_title {
     padding-top: 170px;
 }
 
@@ -366,7 +236,7 @@ div.first_title {
 
 @media screen and (max-width:1015px) {
 
-div.first_title {
+div.whats_ss_title {
     padding-top: 240px;
 }
 
@@ -374,8 +244,12 @@ div.first_title {
 
 @media screen and (max-width:615px) {
 
-div.first_title {
+div.whats_ss_title {
     padding-top: 310px;
 }
 
 }
+
+
+
+
