@@ -358,12 +358,12 @@ div.under_construction {
 
 /*KEEP THIS AT THE BOTTOM OF THE FILE, WRITE ON TOP OF THIS COMMENT*/
 /*This make the padding on top of the div with the class "first_title" bigger when th max-
-width of the page is 1150px, 1015px or 615px. We can change the class so that it does
+width of the page is 1168px, 1033px or 632px. We can change the class so that it does
 the same for the title of all our. This is a solution to the fact that when the navbar
 gets thicker (shrinked screen), it starts hiding the title */
 
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1168px) {
 
 div.first_title {
     padding-top: 170px;
@@ -371,7 +371,7 @@ div.first_title {
 
 }
 
-@media screen and (max-width:1015px) {
+@media screen and (max-width:1033px) {
 
 div.first_title {
     padding-top: 240px;
@@ -379,7 +379,7 @@ div.first_title {
 
 }
 
-@media screen and (max-width:615px) {
+@media screen and (max-width:632px) {
 
 div.first_title {
     padding-top: 310px;
