@@ -190,12 +190,12 @@ div.text_whats_ss {
     -webkit-transition-duration: 0.3s; /* for Safari */
 }
 
-div.text_whats_ss:hover {
+/*div.text_whats_ss:hover {
     margin-top:5px;
     margin-bottom:5px;
     margin-right:80px;
     margin-left:80px;
-}
+}*/
 
 hr.whats_ss {
     margin-right:200px;
