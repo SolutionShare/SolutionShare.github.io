@@ -309,10 +309,17 @@ h2.Donations {
     font-size: 350%;
 }
 
+p.donations1 {
+    font-size: 200%;
+}
+
 h3.Donations {
     font-size: 150%;
 }
 
+p.donations2 {
+    font-size: 170%;
+}
 
 #content-1 {
 	float:left;
