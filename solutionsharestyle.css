@@ -91,6 +91,9 @@ hr.navbar {
 
 div.footer {
     background-color: #3674AB;
+	position:absolute;
+	bottom:0px;
+	width:100%;
 }
 
 div.logo_footer {
