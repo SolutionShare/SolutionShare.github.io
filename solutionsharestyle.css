@@ -253,9 +253,11 @@ h2.feature{
 h3.feature{
 	font-size:35px;
 }
+div.features{
+}
 div.feature {
     display:inline-block;
-    padding:20px;
+    padding:30px;
 	vertical-align:top;
 }
 p.feature{
