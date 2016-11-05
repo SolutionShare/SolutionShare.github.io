@@ -315,43 +315,36 @@ img.about_us_pics {
 /*===================================================*/
 /*Donations (Abel)*/
 
+div.main_abel {
+    background.image: url: ("Pictures/studying1.jpg");
+}
+
 
 h2.Donations {
     font-size: 350%;
 }
 
-p.donations1 {
-    font-size: 200%;
-}
-
 h3.Donations {
     font-size: 150%;
 }
-
-p.donations2 {
-    font-size: 170%;
-}
+ 
 
 #content-1 {
 	float:left;
-	width:220px;
-	padding:1px;
-
-
-}
-#content-2-1 {
-	float:left;
-	width:860px;
-	padding:1px;
-	background:#A9A9A9;
+        display: inline-block;
+	padding:25px;
+        margin-top: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
 
 }
-#content-2-2 {
+#content-2 {
 	float:right;
-	width:260px;
-	padding:1px;
-
-
+        display: inline-block;
+	padding:10px;
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 200px;
 }
 
 
