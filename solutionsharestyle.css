@@ -315,9 +315,7 @@ img.about_us_pics {
 /*===================================================*/
 /*Donations (Abel)*/
 
-div.main_abel {
-    background.image: url: ("Pictures/studying1.jpg");
-}
+
 
 
 h2.Donations {
@@ -326,6 +324,7 @@ h2.Donations {
 
 h3.Donations {
     font-size: 150%;
+    
 }
  
 
@@ -337,15 +336,21 @@ h3.Donations {
         margin-left: 200px;
         margin-right: 200px;
 
+
 }
-#content-2 {
-	float:right;
-        display: inline-block;
-	padding:10px;
-        margin-top: 20px;
-        margin-left: 100px;
-        margin-right: 200px;
+
+img.Donations {
+
+    display: inline-block
+    height: 0px;
+    width: 0px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+ 
 }
+
+
 
 
 
