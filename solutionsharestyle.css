@@ -324,12 +324,12 @@ img.about_us_pics {
 /*Donations (Abel)*/
 
 
-
 div.page_abel {
 	background-image: url("Pictures/background1.jpg");
-	background-size: auto;
+	background-size: contain;
 	z-index: -1;
-	
+	min-width: 350px;    
+
 	
 }	
 
@@ -337,7 +337,7 @@ div.page_abel {
 h2.donations {
     font-size: 350%;
 	padding-bottom: 60px;
-	padding-top: 60px;
+	padding-top: 30px;
 }
 
 h3.donations {
@@ -358,16 +358,16 @@ h3.donations {
 
 div.transbox {
  	background-image: url("Pictures/Girl-studying-in-Library.jpg");
-	background-size: auto;
-	z-index: -1;
+	background-size: contain;
 	margin-left: 200px;
     margin-right: 200px;
 	margin-bottom: 50px;
     border: 1 px solid black;
-	position : absolute;
 
 
 } 
+
+
 
 
 
