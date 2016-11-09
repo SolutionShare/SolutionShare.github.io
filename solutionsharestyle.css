@@ -195,9 +195,10 @@ div.mainPage {
 
 div.bg_index {
 	position : absolute;
-	left: 0;
-	top: 0;	
+	left: 0px;
+	top: 0px;	
 	width: 100%;
+	z-index: -1;
 }
 
 img.bg_index {
@@ -207,6 +208,7 @@ img.bg_index {
 	ms-filter: blur(5px);
 	o-filter: blur(5px);
 	filter: blur(5px);
+	z-index: -1;
 }
 
 
