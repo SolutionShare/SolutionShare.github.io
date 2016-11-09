@@ -326,9 +326,12 @@ img.about_us_pics {
 
 div.page_abel {
 	background-image: url("Pictures/background1.jpg");
-	background-size: contain;
-	z-index: -1;
+	background-size: auto;
 	min-width: 350px;    
+    position:absolute;
+    width:100%;
+    z-index:1000;
+
 
 	
 }	
@@ -338,6 +341,7 @@ h2.donations {
     font-size: 350%;
 	padding-bottom: 60px;
 	padding-top: 30px;
+
 }
 
 h3.donations {
