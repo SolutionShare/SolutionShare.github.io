@@ -337,7 +337,7 @@ div.page_abel {
 h2.donations {
     font-size: 350%;
 	padding-bottom: 60px;
-	padding-top: 30px;
+	padding-top: 60px;
 }
 
 h3.donations {
@@ -364,6 +364,7 @@ div.transbox {
     margin-right: 200px;
 	margin-bottom: 50px;
     border: 1 px solid black;
+	position : absolute;
 
 
 } 
