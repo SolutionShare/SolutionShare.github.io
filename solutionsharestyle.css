@@ -185,6 +185,7 @@ div.mainPage {
 }
 
 .img {
+	background = "Pictures/campustour.jpg";
 	webkit-filter: blur(5px);
 	moz-filter: blur(5px);
 	ms-filter: blur(5px);
