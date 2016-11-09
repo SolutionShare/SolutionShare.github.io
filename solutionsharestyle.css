@@ -358,7 +358,7 @@ h3.donations {
 
 div.transbox {
  	background-image: url("Pictures/Girl-studying-in-Library.jpg");
-	background-size: contain;
+	background-size: absolute;
 	margin-left: 200px;
     margin-right: 200px;
 	margin-bottom: 50px;
