@@ -184,6 +184,33 @@ hr.footer {
 div.mainPage {
 }
 
+.img {
+	background : "Pictures/campustour.jpg";
+	webkit-filter: blur(5px);
+	moz-filter: blur(5px);
+	ms-filter: blur(5px);
+	o-filter: blur(5px);
+	filter: blur(5px);
+}
+
+div.bg_index {
+	position : absolute;
+	left: 0px;
+	top: 0px;	
+	width: 100%;
+	z-index: -1;
+}
+
+img.bg_index {
+	width: 100%;
+	webkit-filter: blur(5px);
+	moz-filter: blur(5px);
+	ms-filter: blur(5px);
+	o-filter: blur(5px);
+	filter: blur(5px);
+	z-index: -1;
+}
+
 
 /*===================================================*/
 
@@ -324,39 +351,55 @@ img.about_us_pics {
 /*Donations (Abel)*/
 
 
+div.page_abel {
+	background-image: url("Pictures/background1.jpg");
+	min-width: 350px;    
+	height: 100%;
+    width:100%;
+    z-index:1000;
 
 
-h2.Donations {
+	
+}	
+
+
+h2.donations {
     font-size: 350%;
+	padding-bottom: 30px;
+	padding-top: 50px;
+
 }
 
-h3.Donations {
-    font-size: 150%;
+h3.donations {
+    font-size: 200%;
+	text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+	margin-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 5px;	
+	overflow: avoid;
+	opacity: 0.85;
+    filter: alpha(opacity=60);	
+	background-color: #ffffff;
+
+	
     
 }
- 
 
-#content-1 {
-	float:left;
-        display: inline-block;
-	padding:25px;
-        margin-top: 20px;
-        margin-left: 200px;
-        margin-right: 200px;
+div.transbox {
+ 	background-image: url("Pictures/Girl-studying-in-Library.jpg");
+	background-size: absolute;
+	margin-left: 200px;
+    margin-right: 200px;
+	margin-bottom: 50px;
+    border: 1 px solid black;
+    
+
+} 
 
 
-}
 
-img.Donations {
-
-    display: inline-block
-    height: 0px;
-    width: 0px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
- 
-}
 
 
 
