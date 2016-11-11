@@ -276,6 +276,7 @@ div.about_us_title {
 
 /*div.about_us_bios {
     clear: top;
+    margin: auto;
 }*/
 
 p.about_us_bios {
@@ -285,6 +286,7 @@ p.about_us_bios {
 div.about_us_text_container {
     float:right;
     width: 75%;
+    line-height: 190%;
 }
 
 div.about_us_pic_container {
