@@ -1,6 +1,8 @@
 /*Elements common to all pages*/
 /*Up for change*/
 
+/*start of code by Walid*/
+
 body {
     margin:0px;
     background-color: #F0F0F0;
@@ -31,11 +33,17 @@ h2.first_title {
     text-align: center;
 }
 
+div.container {
+	min-height: calc(100vh - 151px);
+}
 
+/*end of code by Walid*/
 
 /*===========================================*/
 
 /* Navigation bar */
+
+/*start of code by Walid*/
 
 div.navbar {
     /* margin-right : 110px;*/
@@ -85,12 +93,19 @@ hr.navbar {
     color: #FFE380;
 }
 
+/*end of code by Walid*/
+
 /*=================================================*/
 
 /*footer*/
 
+/*Start of code by Walid*/
+
 div.footer {
     background-color: #3674AB;
+	/*position:relative;
+	bottom:0px;
+	width:100%;*/
 }
 
 div.logo_footer {
@@ -169,6 +184,7 @@ hr.footer {
     color: #FFE380;
 }
 
+/*end of code by Walid*/
 
 /*=================================================*/
 /*Homepage (Chris)*/
@@ -176,16 +192,75 @@ hr.footer {
 div.mainPage {
 }
 
+.img {
+	background : "Pictures/campustour.jpg";
+	webkit-filter: blur(5px);
+	moz-filter: blur(5px);
+	ms-filter: blur(5px);
+	o-filter: blur(5px);
+	filter: blur(5px);
+}
+
+/*start code Walid*/
+
+div.bg_index {
+	position : absolute;
+	left: 0px;
+	top: 0px;	
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	overflow: hidden;
+	padding: 0px;
+}
+
+img.bg_index {
+	width: 100%;
+	height: 100%;
+	webkit-filter: blur(5px);
+	moz-filter: blur(5px);
+	ms-filter: blur(5px);
+	o-filter: blur(5px);
+	filter: blur(5px);
+	z-index: -1;
+}
+
+/*end code Walid*/
+
+/* Start code Max */
+div.slogan{
+	padding-top:30%;
+}
+
+h2.index_title{
+	color:#FFE380;
+	font-size:50px;
+}
+
+h2.index{
+	color:#FFE380;
+}
+/* End code Max */
 
 /*===================================================*/
 
 /*What's SolutionShare (How it works) page(Walid)*/
 
+/*Start of code by Walid*/
+
+div.whats_ss_content {
+	margin: 0px;
+	margin-right: 10%;
+	margin-left: 10%;
+	/*width: 80%;*/
+	min-width: 350px;
+}
+
 div.text_whats_ss {
     margin-top:25px;
     margin-bottom:25px;
-    margin-right:200px;
-    margin-left:200px;
+    /*margin-right:200px;
+    margin-left:200px;*/
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s; /* for Safari */
 }
@@ -198,8 +273,8 @@ div.text_whats_ss {
 }*/
 
 hr.whats_ss {
-    margin-right:200px;
-    margin-left:200px;
+   /* margin-right:200px;
+    margin-left:200px;*/
     height: 2px;
     background-color: #FFE380;
     border: 1px solid #FFE380;
@@ -240,6 +315,8 @@ img.whats_ss {
     padding-bottom:17px;
 }
 
+/*end of code by Walid*/
+
 /*==============================================*/
 
 /* Features (Max) */
@@ -249,9 +326,12 @@ h2.feature{
 h3.feature{
 	font-size:35px;
 }
+div.features{
+	margin:0 2.5% 0 2.5%;
+}
 div.feature {
     display:inline-block;
-    padding:20px;
+    padding:30px;
 	vertical-align:top;
 }
 p.feature{
@@ -263,7 +343,7 @@ p.feature{
 	width:400px;
 }
 img.feature {
-    height:150px;
+    height:130px;
 }
 
 /*=================================================*/
@@ -307,49 +387,63 @@ img.about_us_pics {
 /*Donations (Abel)*/
 
 
-h2.Donations {
+div.page_abel {
+	background-image: url("Pictures/background1.jpg");
+	min-width: 350px;    
+	height: 100%;
+    width:100%;
+    z-index:1000;
+
+
+	
+}	
+
+
+h2.donations {
     font-size: 350%;
+	padding-bottom: 30px;
+	padding-top: 50px;
+
 }
 
-p.donations1 {
+h3.donations {
     font-size: 200%;
+	text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+	margin-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 5px;	
+	overflow: avoid;
+	opacity: 0.85;
+    filter: alpha(opacity=60);	
+	background-color: #ffffff;
+
+	
+    
 }
 
-h3.Donations {
-    font-size: 150%;
-}
+div.transbox {
+ 	background-image: url("Pictures/Girl-studying-in-Library.jpg");
+	background-size: absolute;
+	margin-left: 200px;
+    margin-right: 200px;
+	margin-bottom: 50px;
+    border: 1 px solid black;
+    
 
-p.donations2 {
-    font-size: 170%;
-}
-
-#content-1 {
-	float:left;
-	width:220px;
-	padding:1px;
+} 
 
 
-}
-#content-2-1 {
-	float:left;
-	width:860px;
-	padding:1px;
-	background:#A9A9A9;
-
-}
-#content-2-2 {
-	float:right;
-	width:260px;
-	padding:1px;
 
 
-}
+
 
 
 
 /*===================================================*/
 
-/*Temporary link (Walid)*/
+/*Temporary link (by Walid)*/
 
 div.under_construction {
     margin-right:200px;
@@ -371,6 +465,7 @@ width of the page is 1168px, 1033px or 632px. We can change the class so that it
 the same for the title of all our. This is a solution to the fact that when the navbar
 gets thicker (shrinked screen), it starts hiding the title */
 
+/*Start of code by Walid*/
 
 @media screen and (max-width:1168px) {
 
@@ -395,3 +490,5 @@ div.first_title {
 }
 
 }
+
+/*end of code by Walid*/
