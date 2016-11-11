@@ -201,6 +201,8 @@ div.mainPage {
 	filter: blur(5px);
 }
 
+/*start code Walid*/
+
 div.bg_index {
 	position : absolute;
 	left: 0px;
@@ -222,6 +224,8 @@ img.bg_index {
 	filter: blur(5px);
 	z-index: -1;
 }
+
+/*end code Walid*/
 
 div.slogan{
 	padding-top:30%;
