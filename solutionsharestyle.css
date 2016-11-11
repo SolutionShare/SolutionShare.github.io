@@ -372,6 +372,7 @@ div.about_us_text_container {
 div.about_us_pic_container {
     float:left;
     width: 25%;
+    text-align : center;
 }
 
 hr.about_us {
